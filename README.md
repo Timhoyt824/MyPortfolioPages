@@ -3,6 +3,15 @@
 ## Description 
 This is a repsonive multi-page site that will be functioning as a portfolio for me to showcase my projects as I gain more knowledge in web development. This site utilizes html and is built upon the bootstrap framwork. It is fairly bare for now but as I create more content over the next few months I will add/update pages. 
 
+## Deployed Site
+
+[Tim's Portfolio](https://timhoyt824.github.io/MyPortfolioPages/)
+
+## Screenshot
+
+![Tim's Portfolio](./assets/portfolioScreenshot.png?raw=true "Tim's Portfolio")
+
+
 ## License
 
 Copyright <2020> <Tim Hoyt>
