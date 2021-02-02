@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
@@ -16,29 +15,35 @@
 <body>
   <!--Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Tim Hoyt</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-          <a class="nav-item nav-link" href="https://github.com/Timhoyt824">Github</a>
-          <a class="nav-item nav-link" href="https://www.linkedin.com/in/timothy-hoyt-5b84881b">LinkedIn</a>
-          <a class="nav-item nav-link" href="./assets/tim_hoyt_resume.pdf">Resume</a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Tim Hoyt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Links
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://github.com/Timhoyt824">Github</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/timothy-hoyt-5b84881b">LinkedIn</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./assets/tim_hoyt_resume.pdf">Resume</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
     </div>
   </nav>
 
@@ -55,7 +60,7 @@
           <!--Profile picture and about me text-->
           <div class="col-12 my-content">
             <div class="col-md-6">
-              <img src="./assets/ProfilePic.jpg" class="img-fluid img-thumbnail rounded float-left"
+              <img src="./assets/ProfilePic.jpg" class="img-fluid img-thumbnail rounded float-start"
                 alt="Image of Tim Hoyt">
             </div>
             <section>
@@ -91,20 +96,11 @@
   <!--Sticky Footer-->
   <footer class="footer mt-auto py-3">
     <div class="container">
-      <span class="text-muted">© 2020 Copyright Tim Hoyt</span>
+      <span class="text-muted">© 2021 Copyright Tim Hoyt</span>
     </div>
   </footer>
 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>
 
